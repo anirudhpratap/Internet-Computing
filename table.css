@@ -1,0 +1,116 @@
+html, body, marquee, div, h1, a, p, nav,  header, footer, figure
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+}
+body
+{
+	background-image: url("homeback.jpg");
+}
+header, footer
+{
+	background-color: #B72450;
+	color: white;
+	margin-bottom: 15px;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+nav.top a
+{
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+}
+marquee
+{
+	font-size: 25px;
+	padding: 15px;
+}
+ul, li
+{
+	font-size: 20px;
+	list-style-type:none;
+	padding: 10px;
+	margin: 10px;
+}
+div.lhs
+{
+	background-color: #F690A6;
+	float: left;
+	width: 20%;
+	margin: 10px;
+}
+div.mdl
+{
+	background-color: #F690A6;
+	float: left;
+	width: 75%;
+	height: 475px;
+	padding: 0px;
+	margin: 10px;
+}
+nav.ft p
+{
+	clear:left;
+	float:right;
+	display: inline-block;
+	font-size: 15px;
+	padding: 20px;
+}
+p.sharing
+{
+	font-size:20px;
+	padding: 10px;
+	padding-left: 0px;
+}
+p.sharing img
+{
+	width: 25px;
+	height: 25px;
+}
+footer
+{
+	clear: left;
+	float: left;
+	font-size: 15px;
+	width: 98.78%;
+	padding: 10px;
+	background-color: #B72450;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+table
+{
+	width: 50%;
+	color: white;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin: 2px;
+
+}
+th, td
+{
+	border: 1px solid black;
+	padding: 0.3em;
+}
+th
+{
+	background-color: #850080;
+}
+caption
+{
+	font-size: 20px;
+	margin: 5px;
+	padding: 0.5em;
+}

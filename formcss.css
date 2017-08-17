@@ -1,0 +1,239 @@
+body {background-image: url("homeback.jpg");}
+
+html, body, marquee, div, h1, a, p, nav,  header, footer, figure
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+}
+body
+{
+	background-image: url("homeback.jpg");
+}
+header, footer
+{
+	background-color: #B72450;
+	color: white;
+	margin-bottom: 15px;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+nav.top a
+{
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+}
+marquee
+{
+	font-size: 25px;
+	padding: 15px;
+}
+ul, li
+{
+	font-size: 20px;
+	list-style-type:none;
+	padding: 10px;
+	margin: 10px;
+}
+div.lhs
+{
+	background-color: #F690A6;
+	float: left;
+	width: 20%;
+	margin: 10px;
+}
+form
+{
+	font-size: 15px;
+	color: white;
+	margin: 5px;
+}
+div.mdl
+{
+	float: left;
+	width:55.5%;
+	padding: 0px;
+	margin: 10px;
+	background-color: #F690A6;
+}
+div.rhs
+{
+	background-color: #F690A6;
+	float:right;
+	width: 20%;
+	margin: 10px;
+}
+nav.ft p
+{
+	float:right;
+	display: inline-block;
+	font-size: 15px;
+	padding: 20px;
+}
+footer
+{
+	clear: left;
+	float: left;
+	font-size: 15px;
+	width: 98.78%;
+	padding: 10px;
+	background-color: #B72450;
+	color: white;
+}
+p.sharing
+{
+	font-size:20px;
+	padding: 10px;
+	padding-left: 0px;
+}
+p.sharing img
+{
+	width: 25px;
+	height: 25px;
+}
+.fn
+{
+	margin-left: 109px;
+}
+.ln
+{
+	margin-left: 110px;
+}
+.pn
+{
+	margin-left: 83px;
+}
+.email
+{
+	margin-left: 140px;
+}
+.gen
+{
+	margin-left: 130px;
+}
+.date
+{
+	margin-left: 70px;
+}
+.currency
+{
+	margin-left: 40px;
+}
+.money
+{
+	margin-left: 80px;
+}
+.qt
+{
+	margin-left: 60px;
+}
+.xchng
+{
+	margin-left: 65px;
+}
+.cmnt
+{
+	margin-left: 105px;
+}
+.tkr
+{
+	margin-left: 96px;
+}
+.promo
+{
+	margin-left: 0px;
+}
+.state
+{
+	margin-left: 65px;
+}
+.pic
+{
+	margin-left: 85px;
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+	nav.top a
+	{
+		font-size: 10px;
+		padding: 10px;
+	}
+	ul, li
+	{
+		padding: 7.5px;
+		margin: 5px;
+	}
+	form
+	{
+		font-size: 10px;
+		max-width: 100%;
+	}
+	nav.ft p
+	{
+		font-size: 10px;
+		padding: 10px;
+	}
+	p.sharing
+	{
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:480px)
+{
+	header, footer
+	{
+		margin: 0px;
+	}
+	nav.top a
+	{
+		padding: 5px;
+		font-size: 10px;
+	}
+	marquee
+	{
+		font-size:10px;
+		padding: 5px;
+	}
+	div.lhs, div.mdl, div.rhs
+	{
+		width: 100%;
+		margin: 5px;
+	}
+	ul, li
+	{
+		font-size: 10px;
+		padding: 5px;
+		margin: 5px;
+	}
+	form
+	{
+		font-size: 5px;
+		max-width; 100%;
+	}
+	nav.ft p
+	{
+		font-size: 10px;
+		padding: 5px;
+	}
+	p.sharing
+	{
+		font-size: 5px;
+		padding: 5px;
+		padding-left: 0px;
+	}
+	footer
+	{
+		font-size: 10px;
+		padding: 0px;
+	}
+}
